@@ -1,0 +1,124 @@
+.nav{
+    background-color:lightpink;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+    color: rgb(156, 9, 9);
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position:absolute;
+    top: 5px;
+    left: 600px;
+}
+a{
+    text-decoration: none;
+    color: rgb(156, 9, 9);
+}
+.logo{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    gap: 10px;
+}
+.name{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrap{
+    padding: 14%;
+    float: right;
+}
+.wrap button{
+    border-radius: 5px;
+    background-color: lightpink;
+    padding: 10px;
+}
+.wrap button:hover{
+    background-color: rgb(211, 81, 81);
+    color: white;
+}
+.grid{
+    width: 300px;
+    height: 420px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 183, 183);
+    border-radius: 5%;
+    margin-left: 20px;
+}
+.grid img {
+    width:250px;
+    height: 230px;
+    padding: 12px;
+    margin-left: 15px;
+
+}
+.grid h1 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.grid p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+    padding-left: 15px;
+}
+.rating{
+    color: gold;
+    padding-left: 10px;
+}
+.button{
+    display: flex;
+    gap: 95px;
+    padding: 3px;
+}
+.btn1{
+    border: none;
+    background-color: rgb(227, 63, 191);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.btn2{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+}
+.prod{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.grid img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.foot{
+    display: flex;
+    gap: 100px;
+    margin-top: 10px;
+    background-color: lightpink;
+    padding: 40px;
+}
+
+.foot img{
+    width: 200px;
+    height: 150px;
+}
+.ft{
+    display: grid;
+}
